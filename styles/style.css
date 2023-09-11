@@ -1,0 +1,829 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+ body {
+   font-weight: 500;
+   padding: 1 1;
+ }
+
+ h1 {
+   font-size: 2.5em;
+ }
+
+ /* ----------------------header----------------------------- */
+ footer {
+   border-top: white solid 5px;
+   background-color: gray;
+   max-width: 100%;
+   height: 200px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   border-bottom: 2px solid #000;
+   /* Чтобы не прилипали к краям */
+   padding-left: 15px;
+   padding-right: 15px;
+
+ }
+
+ .footer__list,
+ .footer__link {
+   size: 60px;
+   color: white;
+   font-size: 2em;
+   display: flex;
+   list-style-type: none;
+   gap: 80px;
+ }
+
+ .header {
+   background: linear-gradient(113.49deg, #FEB825, #fab53d7b)no-repeat;
+   max-width: 100%;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   border-bottom: 2px solid #000;
+   /* Чтобы не прилипали к краям */
+   padding-left: 15px;
+   padding-right: 15px;
+   /* расстояние от нижнего контента не  работает , расширяет хедер*/
+   /* padding-bottom: 110px; */
+
+   /* --------------logo----------------- */
+ }
+
+ .header__logo {
+   display: block;
+   background-image: url(../images/сайт\ сдр.png);
+   background-repeat: no-repeat;
+   width: 130px;
+   height: 60px;
+
+   background-repeat: no-repeat;
+   filter: drop-shadow(1px 1px 0px black);
+ }
+
+ /* .header__logo:hover {
+   scale: 1, 5;
+ } */
+
+ /* --------form---------------- */
+
+
+
+
+
+
+
+ /* ------------------head_navigation----------------- */
+ .list {
+   display: flex;
+   list-style-type: none;
+   gap: 40px;
+
+ }
+
+ .header__link {
+   font-size: 1.3em;
+   text-decoration: none;
+   color: #000;
+ }
+
+ .header__list:hover,
+ .header__link:hover {
+   color: white;
+ }
+
+ .header__list:hover {
+   scale: 1.2;
+ }
+
+
+ li.header__list.fa-solid.fa-location-dot::before,
+ li.header__list.tel.fa-sharp.fa-solid.fa-phone-flip::before,
+ li.header__list.fa-brands.fa-vk::before {
+   margin-right: 10px;
+   font-size: 1.1em;
+ }
+
+ /* --------------------banner------------------ */
+ .main__image {
+   margin-top: 25%;
+   width: 110%;
+   flex-basis: calc(100%-490px-116px);
+   border-radius: 10%;
+ }
+
+ .main__text {
+   flex-basis: 490px;
+   padding-left: 10%;
+   padding-right: 5%;
+   padding-top: 8%;
+ }
+ }
+
+ .main__title {
+   font: size 5em;
+   font-weight: 700;
+   line-height: 1.2;
+
+ }
+
+ .main__descrip {
+   font-size: 16px;
+   line-height: 1.6;
+   color: rgba(15, 1, 1, 0.5);
+
+ }
+
+ /* --------------------descrip.main------------------   */
+ .u {
+   /* border-right: #FAF803 5px solid; */
+   border-left: #FAF803 5px solid;
+   /* border-bottom: #FAF803 5px solid; */
+ }
+
+ .u__descrip {
+
+   text-align: center;
+   font-size: 16px;
+   line-height: 1.6;
+   color: rgba(15, 1, 1, 0.5);
+   padding-bottom: 20px;
+
+ }
+
+ .main {
+   display: flex;
+
+
+   background-color: #D9E0E6;
+   padding-bottom: 10%;
+ }
+
+ /* ------------colored_menu-------------- */
+
+ .main__list {
+   position: relative;
+   padding: 0;
+   border-radius: 10%;
+   font-size: 1.05em;
+   list-style-type: none;
+
+
+
+ }
+
+ a {
+   text-decoration: none;
+   color: rgb(12, 1, 1);
+   font-weight: 400;
+ }
+
+ .gravir>a {
+   color: white
+ }
+
+ .polygraph {
+   background-color: #00AEED;
+   padding: 8px;
+   text-align: center;
+   font-weight: 700;
+ }
+
+ .polygraph:hover {
+   cls scale: 1.1;
+   border-radius: 10px;
+   box-shadow: white 2px 2px 10px;
+   font-size: 1.7em;
+ }
+
+ .photo_souvenier {
+   background-color: #ED0191;
+   padding: 8px;
+   text-align: center;
+   font-weight: 700;
+ }
+
+ .photo_souvenier:hover {
+   scale: 1.1;
+   border-radius: 10px;
+   box-shadow: white 2px 2px 10px;
+   font-size: 1.7em;
+ }
+
+ .street_merch {
+   background-color: #FAF803;
+   padding: 8px;
+   text-align: center;
+   font-weight: 700;
+ }
+
+ .street_merch:hover {
+   scale: 1.1;
+   border-radius: 10px;
+   box-shadow: white 2px 2px 10px;
+   font-size: 1.3em;
+ }
+
+ .gravir {
+   background-color: #1C1B17;
+   padding: 8px;
+   text-align: center;
+   font-weight: 700;
+ }
+
+ .gravir:hover {
+   scale: 1.1;
+   border-radius: 10px;
+   box-shadow: white 2px 2px 10px;
+   font-size: 1.3em;
+ }
+
+ /* -----------------------------------главная оболочка------------------------------- */
+ .s {
+   /* border: #0caae9 5px solid; */
+   /* border-left: #0caae9 5px solid; */
+   /* border-top: #0caae9 5px solid; */
+   height: 60vw;
+
+ }
+
+ .t {
+   /* border-right: #f40685 5px solid; */
+   /* border-left: #f40685 5px solid; */
+   /* border-bottom: #f40685 5px solid; */
+   height: 60vw;
+ }
+
+ /* .a { */
+ /* border-right: #06f442 5px solid; */
+ /* border-left: #06f442 5px solid; */
+ /* border-bottom: #06f442 5px solid; */
+ /* border-top: #06f442 5px solid; */
+
+ /* } */
+
+
+ /* .pink { */
+ /* border-right: rgb(239, 21, 159) 5px solid; */
+ /* border-left: rgb(239, 21, 159) 5px solid; */
+ /* border-bottom: rgb(239, 21, 159) 5px solid; */
+ /* border-top: rgb(239, 21, 159) 5px solid; */
+
+ /* } */
+
+ /* -------------------------------container-------------------------- */
+ .s__title {
+   padding-top:
+
+ }
+
+ .short {
+   height: 48vw;
+ }
+
+ .container {
+
+   position: relative;
+   gap: 10px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-content: start;
+   height: 100%;
+   width: 100%;
+   /* border:5px solid red; */
+ }
+
+ h1 .main__title .s__title {
+   font: size 2.5em;
+   ;
+   position: relative;
+   top: 0%;
+ }
+
+ .last .mai {
+   width: 20%;
+   height: 50%;
+ }
+
+ /* ---------------------mai.galery-------------------------------------------- */
+ .mai {
+   /* border:3px solid violet; */
+
+   position: relative;
+   top: 0;
+   left: 0;
+   width: 20%;
+   height: 27%;
+   overflow: hidden;
+ }
+
+ .short .mai {
+   height: 37%;
+ }
+
+
+ /* ----------------cards--------------------- */
+ .one {
+   u border: 3px solid green;
+ }
+
+ .two {
+   /* border:3px solid yellow; */
+ }
+
+ /* .three{border:3px solid blue;} */
+ /* .four{border: 3px solid aqua;} */
+ .mai .image,
+ .mai .text {
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   box-sizing: border-box;
+ }
+
+ .mai .image {
+   height: 100%;
+ }
+
+ /* ===================card-text============== */
+ .card__title {
+   font-size: 1em;
+   line-height: 0.9;
+   position: relative;
+   font: size 1em;
+   text-align: center;
+   margin: 0%;
+   padding: 5px;
+   border-bottom: 1px solid white;
+ }
+
+ /* -----------card-descrip.--------------- */
+ .des {
+
+   align-self: stretch;
+   color: #8b8c8d;
+   width: 100%;
+   text-align: center;
+
+
+
+
+ }
+
+ .mai .text {
+   background-color: rgba(13, 84, 171, 0.8);
+   height: 100%;
+   position: absolute;
+   top: 0;
+   font-size: 1em;
+   left: 100%;
+   padding: 4% 15% 1% 15%;
+   color: white;
+   transition: 0.4s;
+
+ }
+
+ .mai:hover .text {
+   top: 0;
+   left: 0;
+ }
+
+ /* --------------------------------------------------------------- */
+ /* .u
+ {border:#FAF803 5px solid;
+ margin-bottom: 0;
+ } */
+
+ .u__descrip {
+   padding-left: 30%;
+   padding-right: 30%;
+   text-align: justify;
+
+ }
+
+
+ .container img {
+   object-fit: cover;
+   object-position: bottom;
+ }
+
+ /* ---------------------------banner---------- */
+
+ .banner {
+   box-sizing: border-box;
+
+
+ }
+
+ .ban {
+   position: relative;
+   height: fit-content;
+   padding: 2% 2%;
+   width: 93vw;
+
+
+ }
+
+ /* ================wy us==================== */
+
+ .wy__us {
+   height: 80vw;
+   /* border: 5px solid black; */
+   background-color: #E0E8EB;
+   padding: 10%;
+ }
+
+ h5 {
+   text-align: center;
+   margin: 10px;
+ }
+
+ .wy__us h1,
+ form__title,
+ h3 {
+   text-align: center;
+
+ }
+
+ .inner {
+
+   position: relative;
+   gap: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-content: center;
+   height: 100%;
+   width: 100%;
+ }
+
+ .first,
+ .second,
+ .third,
+ .fourth,
+ .fifth,
+ .sixth {
+   border-radius: 10%;
+   width: 27%;
+   height: 40%;
+   background-color: rgba(255, 255, 255, 0.3);
+ }
+
+ .icons {
+   padding: 0 28% 0;
+ }
+
+ .somewords {
+   padding: 0 15%;
+ }
+
+ .first:hover,
+ .second:hover,
+ .third:hover,
+ .fourth:hover,
+ .fifth:hover,
+ .sixth:hover {
+   scale: 1.1;
+ }
+
+ /* =========================Form================================= */
+ .form__title {
+   text-align: center;
+   font-size: 60px;
+   font-weight: 900;
+ }
+
+ .form__descrip {
+   font-size: 30px;
+   font-weight: 200;
+   color: #00000097;
+ }
+
+ .formm {
+   width: 100%;
+   background-image: url(/images/banners/сайт\ форма.png);
+   background-size: cover;
+
+ }
+
+ form {
+   margin: 0;
+   padding: 0;
+ }
+
+ .form {
+   width: 40%;
+   height: 60%;
+   /* border: #ED0191 solid 3px; */
+   position: relative;
+   left: 30%;
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+
+ }
+
+ fieldset {
+   border-radius: 20px;
+   display: flex;
+   margin-top: 25px;
+   padding: 20px 40px 20px 100px;
+   justify-content: center;
+   background-color: rgba(255, 255, 255, 0.3);
+
+ }
+
+ legend {
+
+   font-style: italic;
+   font-size: 28px;
+   color: #00000097;
+ }
+
+ .iput__name,
+ .iput__tel,
+ .deal {
+
+   box-sizing: border-box;
+   border-radius: 10px;
+   padding: 10px 8px;
+   margin-bottom: 10px;
+   width: 85%;
+   font-size: 18px;
+
+ }
+
+ .iput__name,
+ .iput__tel {
+
+   font-size: 20px;
+   height: 40px;
+ }
+
+ .deal {
+   padding-top: 25px;
+   height: 150px;
+
+ }
+
+ .baton {
+   height: 40px;
+   border-radius: 10px;
+   width: 85%;
+   font-size: 18px;
+ }
+
+
+ /* =========================break_point1000px========================= */
+ @media (max-width: 1000px) {
+   .wy__us {
+     height: 100vw;
+
+   }
+
+   .icons {
+     position: absolute;
+     top: 0;
+     left: -20%;
+     transform: 0 0;
+     width: 20%;
+   }
+
+   .first,
+   .second,
+   .third,
+   .fourth,
+   .fifth,
+   .sixth {
+     position: relative;
+     border-radius: 10%;
+     width: 35%;
+     height: 27%;
+     background-color: rgba(255, 255, 255, 0.3);
+   }
+
+
+
+   .s,
+   .t,
+   .a,
+   .r,
+   {
+   max-width: 1000px;
+   height: 800px;
+ }
+
+ .short {
+   height: 470px;
+ }
+
+ .short .mai {
+   height: 40%;
+ }
+
+ h1.main__title {
+   font-size: 50px;
+ }
+
+
+
+ .main__descrip {
+   display: none;
+ }
+ }
+
+ /* ====================BREAK POINT800=========================== */
+ @media(max-width:830px) {
+
+   .nav,
+   .main__descrip {
+     display: none;
+   }
+
+   h1.main__title {
+     font-size: 30px;
+   }
+
+   .main__list {
+     width: 35VW;
+     left: 18%;
+   }
+
+   .main__descrip {
+     display: none;
+   }
+
+
+   .container {
+     gap: 15px;
+   }
+
+   .one,
+   .four,
+   .six,
+   .eight {
+     display: none;
+   }
+
+   .ban {
+     padding: 0 0;
+     width: 93vw;
+   }
+
+
+   .s,
+   .t {
+     height: 1000px;
+   }
+
+   .short {
+     height: 800px;
+
+   }
+
+   .mai {
+     width: 40%;
+     height: 30%;
+   }
+
+   .short .mai {
+     width: 40%;
+     height: 38%;
+   }
+
+   .special {
+     font: size 0.5em;
+     ;
+   }
+
+ }
+
+
+
+
+
+
+
+
+
+
+ /* ----------------------500px------------- */
+ @media(max-width: 600px) {
+
+   .s,
+   .t {
+     height: 1400px;
+   }
+
+   .short {
+     height: 1400px;
+
+
+   }
+
+   .mai {
+     width: 65%;
+     height: 20%;
+   }
+
+   .short .mai {
+     width: 65%;
+     height: 20%;
+   }
+
+   .container {
+     gap: 15px;
+   }
+
+   .one,
+   .four,
+   .six,
+   .eight {
+     display: none;
+   }
+
+   .mai .text {
+     font-size: 1.4em;
+   }
+
+   .ban {
+     width: 100%;
+     padding: 0;
+   }
+
+   .wy__us {
+     height: 800px;
+
+   }
+
+   .inner {
+     top: -10%;
+   }
+
+   .icons {
+     position: absolute;
+     top: -25%;
+     left: -40%;
+     transform: 0 0;
+     width: 20%;
+   }
+
+   .first,
+   .second,
+   .third,
+   .fourth,
+   .fifth,
+   .sixth {
+     position: relative;
+     border-radius: 1%;
+     width: 85%;
+     height: 15%;
+     background-color: rgba(255, 255, 255, 0.3);
+   }
+
+   .first,
+   .sixth {
+     display: none;
+   }
+ }
+
+ /* -------------------350------------------ */
+ @media(max-width: 400px) {
+   body {
+
+     margin: auto;
+
+   }
+
+
+
+   .mai {
+     position: relative;
+     left: 20px;
+   }
+
+   .s,
+   .t,
+   .short {
+     width: 100%;
+     height: 580vw;
+     padding: 0%;
+
+   }
+
+   .mai .text {
+     font-size: 1em;
+   }
+
+   .ban {
+     width: 100%;
+     padding: 0
+   }
+
+ }
+
+ /* +++++++++++++++++++++++++++++++++++++++++++++++++++++ */
