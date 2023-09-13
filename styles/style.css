@@ -1,12 +1,14 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
 
  body {
+   margin: 0;
+   padding: 0;
    font-weight: 500;
-   padding: 1 1;
+
  }
 
  h1 {
-   font-size: 2.5em;
+   font-size: 4em;
  }
 
  /* ----------------------header----------------------------- */
@@ -55,6 +57,7 @@
 
  .header__logo {
    display: block;
+
    background-image: url(../images/сайт\ сдр.png);
    background-repeat: no-repeat;
    width: 130px;
@@ -124,7 +127,7 @@
  }
 
  .main__title {
-   font: size 5em;
+   font-size: 5em;
    font-weight: 700;
    line-height: 1.2;
 
@@ -140,7 +143,7 @@
  /* --------------------descrip.main------------------   */
  .u {
    /* border-right: #FAF803 5px solid; */
-   border-left: #FAF803 5px solid;
+   /* border-left: #FAF803 5px solid; */
    /* border-bottom: #FAF803 5px solid; */
  }
 
@@ -504,9 +507,14 @@
  }
 
  .formm {
-   width: 100%;
 
-   background-size: cover;
+   width: 96%;
+   height: 80vh;
+   position: relative;
+
+
+
+   padding: 2% 2%;
 
  }
 
@@ -519,7 +527,7 @@
    width: 40%;
    height: 60%;
    /* border: #ED0191 solid 3px; */
-   position: relative;
+
    left: 30%;
    display: flex;
    flex-direction: column;
@@ -528,6 +536,9 @@
  }
 
  fieldset {
+   position: relative;
+   top: -10%;
+   left: 75%;
    border-radius: 20px;
    display: flex;
    margin-top: 25px;
@@ -580,9 +591,20 @@
 
  /* =========================break_point1000px========================= */
  @media (max-width: 1000px) {
+   .form {
+     position: relative;
+     width: 50vw;
+     LEFT: 0%;
+     TOP: 0%;
+   }
+
    .wy__us {
      height: 100vw;
 
+   }
+
+   .form__descrip {
+     display: none;
    }
 
    .icons {
@@ -638,6 +660,9 @@
 
  /* ====================BREAK POINT800=========================== */
  @media(max-width:830px) {
+   .main__image {
+     width: 75%;
+   }
 
    .nav,
    .main__descrip {
@@ -700,130 +725,155 @@
      ;
    }
 
- }
-
-
-
-
-
-
-
-
-
-
- /* ----------------------500px------------- */
- @media(max-width: 600px) {
-
-   .s,
-   .t {
-     height: 1400px;
-   }
-
-   .short {
-     height: 1400px;
-
-
-   }
-
-   .mai {
-     width: 65%;
-     height: 20%;
-   }
-
-   .short .mai {
-     width: 65%;
-     height: 20%;
-   }
-
-   .container {
-     gap: 15px;
-   }
-
-   .one,
-   .four,
-   .six,
-   .eight {
-     display: none;
-   }
-
-   .mai .text {
-     font-size: 1.4em;
-   }
-
-   .ban {
-     width: 100%;
-     padding: 0;
-   }
-
-   .wy__us {
-     height: 800px;
-
-   }
-
-   .inner {
-     top: -10%;
-   }
-
-   .icons {
-     position: absolute;
-     top: -25%;
-     left: -40%;
-     transform: 0 0;
-     width: 20%;
-   }
-
-   .first,
-   .second,
-   .third,
-   .fourth,
-   .fifth,
-   .sixth {
+   .form {
      position: relative;
-     border-radius: 1%;
-     width: 85%;
-     height: 15%;
-     background-color: rgba(255, 255, 255, 0.3);
-   }
-
-   .first,
-   .sixth {
-     display: none;
-   }
- }
-
- /* -------------------350------------------ */
- @media(max-width: 400px) {
-   body {
-
-     margin: auto;
-
+     width: 80vw;
+     LEFT: -50%;
+     TOP: 5%;
    }
 
 
 
-   .mai {
-     position: relative;
-     left: 20px;
+
+
+
+
+
+
+
+
+
+   /* ----------------------500px------------- */
+   @media(max-width: 600px) {
+     .form {
+       width: 100vw;
+       LEFT: -75%;
+       TOP: 0%;
+
+       /* border: #ED0191 solid 3px; */
+       position: relative;
+
+       display: flex;
+       flex-direction: column;
+       justify-content: start;
+     }
+
+     fieldset {
+       padding: 3px;
+     }
+
+     .s,
+     .t {
+       height: 1400px;
+     }
+
+     .short {
+       height: 1400px;
+
+
+     }
+
+     .mai {
+       width: 65%;
+       height: 20%;
+     }
+
+     .short .mai {
+       width: 65%;
+       height: 20%;
+     }
+
+     .container {
+       gap: 15px;
+     }
+
+     .one,
+     .four,
+     .six,
+     .eight {
+       display: none;
+     }
+
+     .mai .text {
+       font-size: 1.4em;
+     }
+
+     .ban {
+       width: 100%;
+       padding: 0;
+     }
+
+     .wy__us {
+       height: 800px;
+
+     }
+
+     .inner {
+       top: -10%;
+     }
+
+     .icons {
+       position: absolute;
+       top: -25%;
+       left: -40%;
+       transform: 0 0;
+       width: 20%;
+     }
+
+     .first,
+     .second,
+     .third,
+     .fourth,
+     .fifth,
+     .sixth {
+       position: relative;
+       border-radius: 1%;
+       width: 85%;
+       height: 15%;
+       background-color: rgba(255, 255, 255, 0.3);
+     }
+
+     .first,
+     .sixth {
+       display: none;
+     }
    }
 
-   .s,
-   .t,
-   .short {
-     width: 100%;
-     height: 580vw;
-     padding: 0%;
+   /* -------------------350------------------ */
+   @media(max-width: 400px) {
+     body {
+
+       margin: auto;
+
+     }
+
+
+
+
+
+     .mai {
+       position: relative;
+       left: 20px;
+     }
+
+     .s,
+     .t,
+     .short {
+       width: 100%;
+       height: 580vw;
+       padding: 0%;
+
+     }
+
+     .mai .text {
+       font-size: 1em;
+     }
+
+     .ban {
+       width: 100%;
+       padding: 0
+     }
 
    }
 
-   .mai .text {
-     font-size: 1em;
-   }
-
-   .ban {
-     width: 100%;
-     padding: 0
-   }
-
- }
-
- /* +++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+   /* +++++++++++++++++++++++++++++++++++++++++++++++++++++ */
